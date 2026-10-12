@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DSC USB Token Not Detected in Windows 10/11? Fix It Safely | DSC Support Desk</title>
+<meta name="description" content="Troubleshoot a DSC USB token not detected in Windows 10 or 11. Check USB ports, Device Manager, token drivers, browser and signing utility safely.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://dscsupport.devs.surf/dsc-token-not-detected-windows.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DSC USB Token Not Detected in Windows 10/11?">
+<meta property="og:description" content="Practical checks for DSC USB token detection problems, drivers and signing utilities.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80">
+<meta property="og:url" content="https://dscsupport.devs.surf/dsc-token-not-detected-windows.html">
+<meta name="theme-color" content="#09264a">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"DSC USB Token Not Detected in Windows 10/11? Fix It Safely","description":"Troubleshooting guide for a Digital Signature Certificate USB token not detected by Windows.","mainEntityOfPage":"https://dscsupport.devs.surf/dsc-token-not-detected-windows.html","publisher":{"@type":"Organization","name":"DSC Support Desk"}}
+</script>
+<style>
+:root{--navy:#09264a;--blue:#1264d8;--cyan:#20b8e6;--ink:#17243a;--muted:#61718a;--paper:#f4f8ff;--line:#e2eaf5;--yellow:#ffd33d}
+*{box-sizing:border-box}body{margin:0;font:16px/1.75 Inter,Segoe UI,Arial,sans-serif;color:var(--ink)}a{color:var(--blue)}.top{background:#061a33;color:#eaf2ff;padding:12px 4%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.top a{color:#fff}.wrap{width:min(920px,92%);margin:auto}.nav{padding:18px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid var(--line)}.brand{font-weight:900;color:var(--navy);text-decoration:none}.btn{display:inline-block;padding:10px 16px;border-radius:10px;background:var(--yellow);color:#17243a;text-decoration:none;font-weight:800}.hero{background:linear-gradient(120deg,#061a33,#0c4d90);color:white;padding:48px 0}.hero p{color:#d4e4f8}.eyebrow{font-size:.82rem;text-transform:uppercase;letter-spacing:.12em;color:#a9dcff;font-weight:800}h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.12;margin:.5em 0}h2{color:var(--navy);line-height:1.25;margin-top:1.7em}h3{color:var(--navy)}main{padding:20px 0 60px}.notice{padding:16px 18px;background:#fff7d8;border:1px solid #f5df87;border-radius:12px;margin:22px 0}.panel{padding:20px;background:var(--paper);border:1px solid var(--line);border-radius:14px;margin:18px 0}li{margin:.45em 0}.guide-image{width:100%;display:block;max-height:360px;object-fit:cover;border-radius:16px;margin:22px 0 8px}.caption{font-size:.86rem;color:var(--muted);margin:0 0 20px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.tip{padding:18px;background:var(--paper);border:1px solid var(--line);border-radius:14px}footer{background:#04172e;color:#c6d5e8;padding:24px 0;font-size:.9rem}footer a{color:#fff}.wa{position:fixed;right:18px;bottom:18px;background:#128c50;color:#fff;padding:12px 16px;border-radius:999px;text-decoration:none;font-weight:800;box-shadow:0 8px 25px #0003}@media(max-width:650px){.grid{grid-template-columns:1fr}.hero{padding:36px 0}}
+</style>
+</head>
+<body>
+<div class="top"><span>Independent DSC Technical Assistance</span><a href="https://wa.me/918791357168" target="_blank" rel="noopener">WhatsApp Support</a></div>
+<div class="wrap nav"><a class="brand" href="/">DSC Support Desk</a><a href="/#guides">All Guides</a></div>
+<section class="hero"><div class="wrap"><div class="eyebrow">Troubleshooting guide</div><h1>DSC USB Token Not Detected in Windows 10/11?</h1><p>Try these safe checks in order before reinstalling software or changing browser settings.</p></div></section>
+<main class="wrap">
+<p>If your Digital Signature Certificate (DSC) USB token is not appearing in a signing utility or portal, the cause may be the USB connection, a missing or incompatible driver, a stopped signing service, or portal-specific requirements. Work through the checks below one at a time.</p>
+<img class="guide-image" src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80" alt="Laptop computer used for troubleshooting a digital certificate" loading="lazy">
+<p class="caption">A laptop setup for checking token and signing software compatibility.</p>
+<div class="notice"><strong>Security first:</strong> Never share your DSC token PIN, OTP, private key, or account password. Download drivers only from the token manufacturer or your certificate provider's official source.</div>
+<h2>1. Check the USB connection</h2>
+<ul><li>Remove the token safely and reconnect it firmly.</li><li>Try another USB port directly on the computer; avoid hubs and extension cables for this test.</li><li>If possible, test the token on another trusted computer. Do not format or initialize the token.</li></ul>
+<img class="guide-image" src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80" alt="Computer keyboard and desktop setup" loading="lazy">
+<p class="caption">Try a direct USB connection and check whether Windows responds.</p>
+<h2>2. Check Windows Device Manager</h2>
+<ol><li>Press <strong>Windows + X</strong> and open <strong>Device Manager</strong>.</li><li>Look under <em>Smart card readers</em>, <em>Universal Serial Bus controllers</em>, and <em>Other devices</em>.</li><li>Reconnect the token and watch for a new device or a yellow warning symbol.</li><li>If it appears as an unknown device, note the displayed name or error before changing anything.</li></ol>
+<div class="panel"><strong>What the result can mean</strong><ul><li><strong>No change at all:</strong> test another USB port or computer.</li><li><strong>Unknown device / warning icon:</strong> check the correct manufacturer driver.</li><li><strong>Device appears normally but portal cannot find it:</strong> continue to the signing utility and browser checks.</li></ul></div>
+<h2>3. Install the correct token driver</h2>
+<p>Token drivers are not universal. Identify the token brand and model from its label or the provider's paperwork, then obtain the compatible Windows driver from the official manufacturer or certificate provider. Check whether the package supports Windows 10/11 and your system architecture.</p>
+<p>Follow the installer instructions. Restart Windows if requested, reconnect the token, and check Device Manager again. Avoid unofficial driver-download sites and do not install multiple random driver packages to see what works.</p>
+<img class="guide-image" src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1200&q=80" alt="Computer hardware and technology components" loading="lazy">
+<p class="caption">Use the driver intended for your exact token model rather than a generic download.</p>
+<h2>4. Check the signing utility and browser</h2>
+<ul><li>Confirm that the portal's required signing utility is installed and running, if applicable.</li><li>Use the portal's official instructions to check browser support and any required extension or service.</li><li>Close and reopen the browser after starting the utility. Test again in a supported browser.</li><li>If the portal reports a specific error, record the exact message and the time it occurred.</li></ul>
+<h2>5. If it still does not work</h2>
+<div class="grid"><div class="tip"><h3>Token not shown in Windows</h3><p>Compare another USB port and another computer, then contact the token manufacturer if it remains undetected.</p></div><div class="tip"><h3>Token shown, portal fails</h3><p>Check the signing utility, portal requirements, browser support, and certificate validity with the provider.</p></div></div>
+<h2>Frequently asked questions</h2>
+<h3>Will reinstalling the driver always fix the problem?</h3><p>No. The issue may be the USB port, token hardware, signing utility, browser, or portal configuration. Identify where the token stops appearing before reinstalling software.</p>
+<h3>Can I share a screenshot for help?</h3><p>Yes, but hide your name, certificate serial number, PAN, email, token PIN, and any other sensitive information first.</p>
+<h3>Is DSC Support Desk an official government portal?</h3><p>No. This site provides independent technical guidance. For certificate issuance, revocation, and provider-specific issues, contact your Certifying Authority or token provider.</p>
+<h2>Need help with your exact error?</h2><p>Send the token brand/model, Windows version, portal name, and exact error text. Do not send your PIN or private certificate files.</p>
+<p><a class="btn" href="https://wa.me/918791357168?text=Hello%2C%20my%20DSC%20USB%20token%20is%20not%20detected%20in%20Windows" target="_blank" rel="noopener">Get troubleshooting help on WhatsApp</a></p>
+<p class="caption">Related: <a href="/dsc-token-driver-installation.html">DSC USB Token Driver Installation</a> · <a href="/#services">DSC support services</a></p>
+</main>
+<footer><div class="wrap">© DSC Support Desk · <a href="/">Home</a> · Independent technical assistance</div></footer>
+<a class="wa" href="https://wa.me/918791357168?text=Hello%2C%20I%20need%20DSC%20support" target="_blank" rel="noopener">WhatsApp Support</a>
+</body></html>
