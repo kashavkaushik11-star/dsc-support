@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dscsupport.devs.surf/sitemap.xml
