@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://dscsupport.devs.surf/</loc>
-  </url>
-  <url><loc>https://dscsupport.devs.surf/dsc-token-driver-installation.html</loc></url>\n</urlset>
+  <url><loc>https://dscsupport.devs.surf/</loc></url>
+  <url><loc>https://dscsupport.devs.surf/dsc-token-driver-installation.html</loc></url>
+  <url><loc>https://dscsupport.devs.surf/dsc-token-not-detected-windows.html</loc></url>
+</urlset>
