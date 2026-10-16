@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-labelledby="title desc">
+  <title id="title">DSC Support</title>
+  <desc id="desc">Digital Signature Certificate help and guides</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1687f8"/><stop offset="1" stop-color="#123c9b"/></linearGradient>
+  </defs>
+  <rect width="640" height="240" rx="28" fill="#fff"/>
+  <g transform="translate(24 25)">
+    <path d="M82 5 145 28v53c0 47-27 79-63 96C46 160 19 128 19 81V28Z" fill="url(#blue)"/>
+    <rect x="50" y="66" width="64" height="56" rx="10" fill="#fff"/>
+    <path d="M64 66V51a18 18 0 0 1 36 0v15" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="82" cy="91" r="7" fill="#1557bd"/>
+    <path d="M82 96v11" stroke="#1557bd" stroke-width="6" stroke-linecap="round"/>
+    <rect x="93" y="128" width="92" height="38" rx="12" transform="rotate(-18 93 128)" fill="#152b4d"/>
+    <rect x="105" y="136" width="14" height="22" rx="3" transform="rotate(-18 105 136)" fill="#dbeafe"/>
+    <text x="138" y="153" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#fff" transform="rotate(-18 138 153)">DSC</text>
+  </g>
+  <text x="225" y="106" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800" fill="#123c9b">DSC Support</text>
+  <path d="M225 125H590" stroke="#19a76b" stroke-width="5" stroke-linecap="round"/>
+  <text x="225" y="157" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" fill="#263b58">Digital Signature Certificate</text>
+  <text x="225" y="183" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#52657d">Help &amp; Guides</text>
+</svg>
